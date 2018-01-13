@@ -20,7 +20,7 @@
 
     <script type="text/javascript">
     var fruits = ["Apple","mango","orange","grapes","Banana"];
-    document.getElementById("demo2").innerHTML= fruits[3];
+    document.getElementById("demo2").innerHTML= fruits[2];
     document.getElementById("demo3.2").innerHTML= fruits.length;
     fruits.reverse()
 document.getElementById("demo3.3").innerHTML= fruits;
@@ -28,7 +28,7 @@ document.getElementById("demo3.3").innerHTML= fruits;
     <p id="demo4"></p>
     <script type="text/javascript">
       var num = [4,1,8,3,9,12];
-      num.sort()
+      num.sort(function(a,b){return a - b});
       document.getElementById("demo4").innerHTML= num;
     </script>
     <p id="demo5.0"></p>
